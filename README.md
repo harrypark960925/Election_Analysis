@@ -36,6 +36,23 @@ The analysis of the election show that:
     - Candidate (1, 2, or 3), who receieved "x%" of the vote and "y" number of votes. 
 
 ## Election - Audit Results
-* 
+- The total votes was 369,711 cotes in this congressional election. 
+- The county results: 
+    - Jefferson cast 10.5% of the vote & 38,855 votes.
+    - Denver cast 82.8% of the vote & 306,055 votes.
+    - Arapahoe cast 6.7% of the vote & 24,801 votes.
+    - **Denever county had the largest turnout.**
+- The candidate results: 
+    - Charles Casper Stockham won 23.0% of the vote & 85,213 votes
+    - Diana DeGette won 73.8% of the vote & 272,892 votes
+    - Raymon Anthony Doane won 3.1% of the vote & 11,606 votes
+    - **Diana DeGette won the election within 73.8% of the vote and 272,892 votes.** 
+
+The output of the code is attached below. 
+<img width="724" alt="Screen Shot 2022-03-14 at 2 34 27 AM" src="https://user-images.githubusercontent.com/83077836/158117670-9e298a90-be80-41f9-b399-caf80a897b86.png">
+
+## Election - Audit Summary 
+The program I have ran through is written to analyze the election_results.csv by iterating each row by using for loop. Also, by reading the data by list, starting from the second row and second & third column - County and Candidates - , we computed the number of votes for each county and candidate. By intialzing every variable into 0, (empty blank space for string type) I added the number of votes and accumulated as the program ran. Instead of counting all the data in csv file, we have inspected the data, read and wrote in order to ensure the result of the code. 
+
 
 
